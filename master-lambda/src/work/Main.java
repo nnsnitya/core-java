@@ -8,7 +8,7 @@ public class Main {
 		/*MyInterface myInterface = new MyInterfaceImpl();
 		myInterface.sayHello();*/
 		
-		MyInterface myInter = new MyInterface() {
+		/*MyInterface myInter = new MyInterface() {
 			
 			@Override
 			public void sayHello() {
@@ -24,7 +24,15 @@ public class Main {
 				System.out.println("This is second anonymous class");
 			}
 		};
-		myInter2.sayHello();
+		myInter2.sayHello();*/
+		
+		//using our interface with the help of lambda
+		MyInterface i = () -> System.out.println("this is first time, I am using lambda");
+		i.sayHello();
+		MyInterface i2 = () -> System.out.println("this is second time, I am using lambda");
+		i2.sayHello();
+		
+		
 		
 	}
 
