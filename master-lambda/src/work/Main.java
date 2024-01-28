@@ -40,6 +40,8 @@ public class Main {
 		System.out.println(sumInterface.sum(21, 4));
 		System.out.println(sumInterface.sum(45, 32));
 		
+		LengthInter lengthInter = str -> str.length();
+		System.out.println("Length of String: "+lengthInter.getLength("Nityanand Singh"));
 	}
 
 }
