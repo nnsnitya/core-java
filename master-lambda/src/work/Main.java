@@ -32,12 +32,13 @@ public class Main {
 		MyInterface i2 = () -> System.out.println("this is second time, I am using lambda");
 		i2.sayHello();
 		
-		SumInterface sumInterface = (int a, int b) -> {
+		/*SumInterface sumInterface = (int a, int b) -> {
 			return a+b;
-		};
+		};*/
+		SumInterface sumInterface = (a, b) -> a + b;
 		
-		System.out.println(sumInterface.sum(2, 4));
-		System.out.println(sumInterface.sum(25, 42));
+		System.out.println(sumInterface.sum(21, 4));
+		System.out.println(sumInterface.sum(45, 32));
 		
 	}
 
