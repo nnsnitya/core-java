@@ -7,5 +7,4 @@ public interface MyInterface {
 }
 
 //1. create seperate class and implements this interface
-
-
+//2. anonymous class for implementing interface
