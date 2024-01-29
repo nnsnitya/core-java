@@ -36,3 +36,56 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2024-01-29 00:08:21.676
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.resources 2 2 2024-01-29 17:49:17.430
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-01-29 17:49:17.430
+!MESSAGE The project description file (.project) for 'stream-api' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.408
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.409
+!MESSAGE buffering callback sts4.classpath.CdvMIKlI stream-api true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.409
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.409
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.409
+!MESSAGE buffering callback sts4.classpath.CdvMIKlI stream-api2 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.410
+!MESSAGE executing callback sts4.classpath.CdvMIKlI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:16.435
+!MESSAGE executing callback sts4.classpath.CdvMIKlI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:37.219
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:37.220
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:37.220
+!MESSAGE buffering callback sts4.classpath.CdvMIKlI stream-api false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:37.220
+!MESSAGE executing callback sts4.classpath.CdvMIKlI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:53:37.223
+!MESSAGE executing callback sts4.classpath.CdvMIKlI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:54:43.400
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:54:43.400
+!MESSAGE buffering callback sts4.classpath.CdvMIKlI stream-api2 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:54:43.401
+!MESSAGE executing callback sts4.classpath.CdvMIKlI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-29 17:54:43.403
+!MESSAGE executing callback sts4.classpath.CdvMIKlI SUCCESS [done]
