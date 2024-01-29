@@ -28,6 +28,8 @@ public class Main {
 		System.out.println(list1);
 		System.out.println(listEven);
 		
+		List<Integer> newList = list1.stream().filter(i -> i>10).collect(Collectors.toList());
+		System.out.println(newList);
 	}
 
 }
