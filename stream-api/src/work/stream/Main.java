@@ -24,8 +24,7 @@ public class Main {
 		
 		//list1
 		//using stream
-		Stream<Integer> stream = list1.stream();
-		List<Integer> listEven = stream.filter(i -> i%2==0).collect(Collectors.toList());
+		List<Integer> listEven = list1.stream().filter(i -> i%2==0).collect(Collectors.toList());
 		System.out.println(list1);
 		System.out.println(listEven);
 		
