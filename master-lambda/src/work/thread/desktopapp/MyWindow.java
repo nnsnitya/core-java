@@ -20,14 +20,19 @@ public class MyWindow {
 		JButton button = new JButton("Click Me");
 		
 		//implemented ActionListener(Functional interface) by anonymous class
-		button.addActionListener(new ActionListener() {
+		/*button.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("Button Clicked");
 				JOptionPane.showMessageDialog(null, "Hey!, Button is clicked.");
 			}
-		}); 
+		}); */
+		
+		button.addActionListener((ActionEvent e)-> {
+			System.out.println("Button Clicked");
+			JOptionPane.showMessageDialog(null, "Hey!, Button is clicked.");
+		});
 		
 		frame.add(button);
 		
