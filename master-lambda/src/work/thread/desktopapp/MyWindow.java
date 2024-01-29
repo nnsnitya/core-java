@@ -29,7 +29,7 @@ public class MyWindow {
 			}
 		}); */
 		
-		button.addActionListener((ActionEvent e)-> {
+		button.addActionListener(e-> {
 			System.out.println("Button Clicked");
 			JOptionPane.showMessageDialog(null, "Hey!, Button is clicked.");
 		});
