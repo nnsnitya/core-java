@@ -10,7 +10,7 @@ public class DataSource1 {
 	}
 	
 	//Lazy way of creating singleton obj
-	public static DataSource1 getDataSource1() {
+	public synchronized static DataSource1 getDataSource1() {//by using method sysnchronization
 		//object of this class
 		if(dSource1 == null) {
 			dSource1 = new DataSource1();
