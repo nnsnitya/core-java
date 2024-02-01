@@ -1,6 +1,6 @@
 package solid.I;
 
-public class Circle implements IShape {
+public class Circle implements I2DShape {
 	
 	private double radius;
 	

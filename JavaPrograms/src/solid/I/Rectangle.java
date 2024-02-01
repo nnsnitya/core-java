@@ -1,6 +1,6 @@
 package solid.I;
 
-public class Rectangle implements IShape {
+public class Rectangle implements I2DShape {
 	private double length;
 	private double breadth;
 	

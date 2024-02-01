@@ -1,6 +1,6 @@
 package solid.I;
 
-public class Square implements IShape {
+public class Square implements I2DShape {
 
 	private double side;
 	
