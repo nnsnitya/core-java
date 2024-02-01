@@ -1,6 +1,6 @@
 package solid.O;
 
-public class Rectangle {
+public class Rectangle implements IShape {
 	private double length;
 	private double breadth;
 	

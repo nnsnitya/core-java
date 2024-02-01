@@ -1,6 +1,6 @@
 package solid.O;
 
-public class Circle {
+public class Circle implements IShape {
 	
 	private double radius;
 	

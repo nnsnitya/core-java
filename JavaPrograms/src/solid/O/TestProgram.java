@@ -4,8 +4,8 @@ public class TestProgram {
 
 	public static void main(String[] args) {
 
-		Circle circle = new Circle(5);
-		Rectangle rect = new Rectangle(4, 5);
+		IShape circle = new Circle(5);
+		IShape rect = new Rectangle(4, 5);
 		
 		calculateArea(circle);
 		calculateArea(rect);
@@ -15,10 +15,7 @@ public class TestProgram {
 		
 	}
 	
-	private static void calculateArea(Circle circle) {
-		System.out.println("Area is: "+circle.getArea());
-	}
-	private static void calculateArea(Rectangle	rect) {
-		System.out.println("Area is: "+rect.getArea());
+	private static void calculateArea(IShape iShape) {
+		System.out.println("Area is: "+iShape.getArea());
 	}
 }
