@@ -8,6 +8,8 @@ public class TestBreakSingleton {
 	
 		/*
 		 *1. Reflection API to break singleton pattern
+		 *	solution 1: if obj already exist ==> throws exception from inside constructor
+		 *	solution 2: use enum 
 		 * 
 		 * 
 		 * 

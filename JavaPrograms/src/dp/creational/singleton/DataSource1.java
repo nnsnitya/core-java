@@ -6,7 +6,9 @@ public class DataSource1 {
 	
 	//constructor
 	private DataSource1() {
-		
+		if(dSource1 != null) {
+			throw new RuntimeException("You are trying to break singleton pattern!");
+		}
 	}
 	
 	//Lazy way of creating singleton obj
