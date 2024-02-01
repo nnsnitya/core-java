@@ -14,7 +14,8 @@ public class TestProgram {
 		calculateArea(rect);
 		calculateArea(square);
 		calculateVolume(cube);
-		Printer p = new Printer();
+		IPrinter p = new Printer();//we can also use Factory Design Pattern to remove total dependency, printer obj will be created by factory method and here ..
+									// Test program class will not know which class obj being used here, only known thing will be some obj of IPrinter child class
 		p.print(circle);
 		p.print(rect);
 		p.print(square);
