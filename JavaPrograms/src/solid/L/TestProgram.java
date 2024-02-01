@@ -6,7 +6,7 @@ public class TestProgram {
 
 		IShape circle = new Circle(5);
 		IShape rect = new Rectangle(4, 5);
-		IShape square = new Square(5, 5);
+		IShape square = new Square(5);
 		
 		calculateArea(circle);
 		calculateArea(rect);

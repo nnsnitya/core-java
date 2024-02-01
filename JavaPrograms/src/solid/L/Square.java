@@ -1,14 +1,28 @@
 package solid.L;
 
-public class Square extends Rectangle {
+public class Square implements IShape {
 
-	public Square(double length, double breadth) {
-		super(length, breadth);
-		
+	private double side;
+	
+	public Square(double side) {
+		super();
+		this.side = side;
 	}
 	
+	public double getSide() {
+		return side;
+	}
+	public void setSide(double side) {
+		this.side = side;
+	}
+
 	public double getArea() {
-		return getLength() * getBreadth();
+		return side * side ;
+	}
+	
+	@Override
+	public String toString() {
+		return "Square [side=" + side + "]";
 	}
 	
 }
