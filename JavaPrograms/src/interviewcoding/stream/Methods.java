@@ -1,5 +1,6 @@
 package interviewcoding.stream;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -30,20 +31,27 @@ public class Methods {
 		
 		System.out.println("---------Frequency of each element in An Array----------");
 		Map<String, Long> frqOfStrList_map = names.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-		frqOfStrList_map.entrySet().stream().forEach(e -> {
+		/*frqOfStrList_map.entrySet().stream().forEach(e -> {
 			System.out.println("Key: "+e.getKey());
 			System.out.println("Value: "+e.getValue());
 			System.out.println("-------------------");
-		});
+		});*/
+		System.out.println(frqOfStrList_map);
 
 		System.out.println("---------Frequency of each element in A String----------");
 		String str = "Abhilekh";
 		Map<Character, Long> frqOfStr_map = str.chars().mapToObj(c -> (char)c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-		frqOfStr_map.entrySet().stream().forEach(entry -> {
+		/*frqOfStr_map.entrySet().stream().forEach(entry -> {
 			System.out.println("Key -> "+entry.getKey());
 			System.out.println("Value->"+entry.getValue());
 			System.out.println("-------------------");
-		});
+		});*/
+		System.out.println(frqOfStr_map);
 		
+		
+		System.out.println("---------Joining Strings----------");
+		List<String> listOfStrings = Arrays.asList("Facebook", "Twitter", "YouTube", "WhatsApp", "LinkedIn");
+		String joinedString = listOfStrings.stream().collect(Collectors.joining("--","[","]"));
+		System.out.println(joinedString);
 	}
 }
