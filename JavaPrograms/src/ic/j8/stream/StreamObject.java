@@ -1,4 +1,4 @@
-package interviewcoding.stream;
+package ic.j8.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

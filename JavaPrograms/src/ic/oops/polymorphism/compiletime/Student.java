@@ -1,4 +1,4 @@
-package polymorphism.compiletime;
+package ic.oops.polymorphism.compiletime;
 
 public class Student {
 	public void read() {

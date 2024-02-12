@@ -1,4 +1,4 @@
-package interviewcoding.inheritance;
+package ic.oops.inheritance;
 
 class A {
 	int i = 10;

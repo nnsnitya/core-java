@@ -1,4 +1,4 @@
-package polymorphism.runtime;
+package ic.oops.polymorphism.runtime;
 
 public class Emp extends Person {
 	public void showDetail() {
